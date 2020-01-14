@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+header{
+    width:100%;
+}
+
+ul{
+    list-style: none;
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    float: left;
+}
+
+nav{
+    width: 100%;
+    margin: 0px auto;
+}
+
+a{
+    color: white;
+    display: block;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    color: black;
+}
+
+li{
+    display: table-cell;
+    background-color: black;
+    border-top: 2px solid transparent;
+}
+
+li:hover{
+    background-color: rgba(0,0,0,.3);
+    border-top: 2px solid transparent;
+}
+li:active{
+    background-color: rgba(0,0,0,.3);
+    border-top: 2px gray solid;
+    box-shadow: inset 0px 3px 2px rgba(0,0,0,.2);
+}
+
+table{
+    text-align: left;
+    margin: 20px auto;
+    padding: 20px;
+    border: none;
+}
+
+th{
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+td{
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    padding: 3px 0px;
+}
+
+h1,h2,h3,h4,h5{
+    text-align: center;
+}
+
+input{
+    border: none;
+    padding: 5px 15px;
+    background-color: #f0f0f0;
+}
+
+input[type="submit"]{
+    border: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+select,option{
+    border: none;
+    padding: 5px 15px;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.codigo{
+    padding: 5px 15px;
+}
+
+img[onClick]{
+    cursor: pointer;
+}
